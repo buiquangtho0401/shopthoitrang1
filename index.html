@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
+    <title>wTeam</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- slick-slider-css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- css app -->
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="fixed-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="main">
+            <a href="##" class="main-logo"><span>wT </span>shop</a>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="##" class="menu-link">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="##" class="menu-link">Products</a>
+              </li>
+              <li class="menu-item">
+                <a href="##" class="menu-link">About</a>
+              </li>
+              <li class="menu-item">
+                <a href="##" class="menu-link">Contack</a>
+              </li>
+            </ul>
+            <div class="header-user">
+              <!-- bars -->
+              <a href="##"><i class="fa-solid fa-bars" id="header-bar"></i></a>
+              <!-- Search -->
+              <a href="##"><i class="fa-solid fa-magnifying-glass" id="header-search"></i></a>
+              <!-- User -->
+              <a href="##"><i class="fa-solid fa-user" id="header-user"></i></a>
+              <!-- Cart -->
+              <a href="##"><i class="fa-solid fa-cart-arrow-down" id="header-cart"></i></a>
+            </div>
+            <!-- search-box -->
+            <div class="header-search-box">
+              <input type="search" name="" id="" placeholder="Search..." />
+            </div>
+            <!-- cart-box -->
+            <div class="header-cart-box">
+              <!-- box1 -->
+              <div class="box-cart">
+                <img src="./image/cart1.jpg" alt="" />
+                <div class="cart-text">
+                  <h5>Name: Áo khoác 1</h5>
+                  <p>Price:$10</p>
+                  <span>Amount:1</span>
+                </div>
+                <a href="##!"> <i class="fa-solid fa-trash"></i></a>
+              </div>
+              <!-- box2 -->
+              <div class="box-cart">
+                <img src="./image/cart2.jpg" alt="" />
+                <div class="cart-text">
+                  <h5>Name: Áo khoác 2</h5>
+                  <p>Price:$10</p>
+                  <span>Amount:1</span>
+                </div>
+                <a href="##!"> <i class="fa-solid fa-trash"></i></a>
+              </div>
+              <!-- box3 -->
+              <div class="box-cart">
+                <img src="./image/cart3.jpg" alt="" />
+                <div class="cart-text">
+                  <h5>Name: Áo khoác 3</h5>
+                  <p>Price:$10</p>
+                  <span>Amount:1</span>
+                </div>
+                <a href="##!"> <i class="fa-solid fa-trash"></i></a>
+              </div>
+              <h2 class="total">Total: $30</h2>
+              <a href="##" class="btn">Checkout</a>
+            </div>
+            <!-- user -->
+            <!-- <div class="header-user-box">
+            <div class="form-user">
+              <h3>Đăng nhập</h3>
+              <label for="">Tài khoản</label>
+              <input type="text" name="user" placeholder="Email...">
+              <label for="">Mật khẩu</label>
+              <input type="password" placeholder="Password"/></label>
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </header>
+      <!-- end-header -->
+
+      <!-- slider -->
+      <div class="wrapper-slider">
+        <div class="container-fluid">
+          <div class="image-slider">
+            <div class="image-item">
+              <div class="image">
+                <img src="./image/slider1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="image-item">
+              <div class="image">
+                <img src="./image/slider2.png" alt="" />
+              </div>
+            </div>
+            <div class="image-item">
+              <div class="image">
+                <img src="./image/slider3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="image-item">
+              <div class="image">
+                <img src="./image/slider4.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end slider -->
+      <!-- collection -->
+      <div class="collection container-fluid">
+        <h2 class="collection-title home-title">New Collection</h2>
+        <div class="collection-classify">
+          <a href="##" class="btn btn-white active">All</a>
+          <a href="##" class="btn btn-white">Best Sellers</a>
+          <a href="##" class="btn btn-white">Featured</a>
+          <a href="##" class="btn btn-white">New Arrivals</a>
+        </div>
+        <div class="collection-image">
+          <div class="image-item">
+            <img src="./image/collection1.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 1</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection2.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 2</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection3.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 3</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection4.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 4</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection5.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 5</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection6.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 5</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection7.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 5</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./image/collection1.jpg" alt="" />
+            <span class="sale">sale</span>
+            <div class="collection-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="##">Áo thun 5</a>
+            <div class="coll-price">
+              <p class="price">$10</p>
+              <span class="coll-cart"
+                ><a href="##"><i class="fa-solid fa-cart-arrow-down collection-cart"></i></a
+              ></span>
+            </div>
+          </div>
+        </div>
+        <!-- end collection -->
+
+        <!-- page -->
+        <ul class="page">
+          <li class="page-item active"><a href="####" class="page-link">1</a></li>
+          <li class="page-item"><a href="####" class="page-link">2</a></li>
+          <li class="page-item"><a href="####" class="page-link">3</a></li>
+          <li class="page-item"><a href="####" class="page-link">4</a></li>
+          <li class="page-item">
+            <a href="##" class="page-link"><i class="fa-solid fa-angle-right"></i></a>
+          </li>
+        </ul>
+        <!-- end page -->
+      </div>
+      <!-- carousel -->
+      <div class="carousel container-fluid">
+        <div class="home-title">Suggest</div>
+        <div class="image-carousel">
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carouse4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel5.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel7.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel8.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel9.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel10.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel11.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="./image/carousel12.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end carousel -->
+
+      <!-- footer -->
+      <footer id="footer">
+        <div class="footer-contack container-fluid">
+          <div class="contack">
+            <h3 class="contack-tilte">Thông tin liên hệ</h3>
+            <a href="##"
+              ><img src="./image/logo_wTeam-removebg-preview.png" alt="logo" class="contack-logowt"
+            /></a>
+          </div>
+          <div class="location">
+            <h3>Địa điểm:</h3>
+            <ul>
+              <li><a href="##">Shop, tỉnh TPHCM</a></li>
+              <li><a href="##">Shop, tỉnh Hà Nội</a></li>
+              <li><a href="##">Shop, tỉnh Bình Dương</a></li>
+              <li><a href="##">Shop, tỉnh Đà Lạt</a></li>
+            </ul>
+          </div>
+          <div class="introduce">
+            <h3>Giới thiệu</h3>
+            <ul>
+              <li><a href="##">Giới thiệu về wT shop</a></li>
+              <li><a href="##">Điều khoản sử dụng</a></li>
+              <li><a href="##">Chính sách bảo hành</a></li>
+              <li><a href="##">Tuyển dụng</a></li>
+              <li><a href="##">Tin tức - sự kiện</a></li>
+            </ul>
+          </div>
+          <div class="customer">
+            <h3 class="customer-title">Hỗ trợ khách hàng</h3>
+            <ul>
+              <li>
+                <a href="##">Hướng dẫn đăng kí tài khoản</a>
+              </li>
+              <li>
+                <a href="##">Phương thức đặt hàng</a>
+              </li>
+              <li>
+                <a href="##">Phương thức giao hàng</a>
+              </li>
+              <li>
+                <a href="##">Phương thức thanh toán</a>
+              </li>
+              <li>
+                <a href="##">Chính sách trả hàng</a>
+              </li>
+              <li>
+                <a href="##">Hỏi đáp</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <!-- slick-slider -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- index js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
